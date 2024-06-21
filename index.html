@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /* *,
+    *:after,
+    *:before{
+      box-sizing: border-box;
+    } */
+    body{
+      font-family: 'Courier New', Courier, monospace;
+      background-color: aliceblue;
+
+
+    }
+   
+
+    
+    .card{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 244px;
+      flex-shrink: 0;
+      flex-grow: 0;
+      max-width: 89%;
+      background-color: #fff;
+      box-shadow: 0 6px 10px 0 rgba(0,0,0, 0.16);
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 1rem;
+      /* align-items: center; */
+      justify-content: center;
+    
+    }
+    .card-img{
+    
+     
+      padding-bottom: 95%;
+      position: relative;
+
+    }
+    .card-img img{
+      border-radius: 20px;
+    margin: 5.2%;
+    position: absolute;
+    width: 90%;
+
+    }
+    .card-body{
+      padding: 2rem;
+    }
+    .card-title
+      {
+        font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+        font-size: 1rem;
+        line-height: 1;
+        
+    }
+    .description{
+      font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+      margin-top: 0.70rem;
+      line-height: 1.5;
+    }
+    .container{
+      position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: -45vh;
+    background-color: rgb(176, 220, 234);
+    margin: 7%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.16);
+    /* align-items: center; */
+    }
+  
+  </style>
+</head>
+<body>
+
+
+  <div class="container">
+  <div class="card">
+    <div class="card-img">
+      <img src="./image-qr-code.png" alt="">
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">Improve your fron-end by building projects</h2>
+      <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+ </div>
+
+ 
+  
+  
+</body>
+</html>
